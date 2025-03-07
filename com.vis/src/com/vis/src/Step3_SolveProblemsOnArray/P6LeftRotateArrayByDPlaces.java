@@ -1,9 +1,6 @@
 package com.vis.src.Step3_SolveProblemsOnArray;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public class P6LeftRotateArrayByDPlaces {
     public static int[] nums = {1,2,3,4,5,6,7};
