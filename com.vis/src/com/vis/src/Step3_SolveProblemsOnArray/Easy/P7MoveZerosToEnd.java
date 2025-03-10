@@ -1,4 +1,4 @@
-package com.vis.src.Step3_SolveProblemsOnArray;
+package com.vis.src.Step3_SolveProblemsOnArray.Easy;
 
 public class P7MoveZerosToEnd {
     public void moveZeroes(int[] nums) {

@@ -1,4 +1,4 @@
-package com.vis.src.Step3_SolveProblemsOnArray;
+package com.vis.src.Step3_SolveProblemsOnArray.Easy;
 
 public class P13LongestSubArrWithSumK {
     public static void solve(){

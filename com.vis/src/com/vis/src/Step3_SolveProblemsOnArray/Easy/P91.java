@@ -1,4 +1,4 @@
-package com.vis.src.Step3_SolveProblemsOnArray;
+package com.vis.src.Step3_SolveProblemsOnArray.Easy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

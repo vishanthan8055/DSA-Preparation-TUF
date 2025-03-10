@@ -1,7 +1,6 @@
-package com.vis.src.Step3_SolveProblemsOnArray;
+package com.vis.src.Step3_SolveProblemsOnArray.Easy;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class P9FindTheUnion {
     public static void solve(){
