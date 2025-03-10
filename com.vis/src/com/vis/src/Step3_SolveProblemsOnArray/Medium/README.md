@@ -1,2 +1,2 @@
-###Dutch National FLag Algorithm
-[Dutch National Flag Algo.jfif](Images%2FDutch%20National%20Flag%20Algo.jfif)
+# Dutch National FLag Algorithm
+![img](https://raw.githubusercontent.com/vishanthan8055/DSA-Preparation-TUF-/refs/heads/main/com.vis/src/com/vis/src/Step3_SolveProblemsOnArray/Medium/Images/Dutch%20National%20Flag%20Algo.jfif)
