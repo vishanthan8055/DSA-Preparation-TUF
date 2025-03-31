@@ -10,15 +10,18 @@ public class P12MaximumProductSubarray {
         System.out.println(maxProduct(nums));
     }
     public static int maxProduct(int[] nums) {
-        long prod = 1;
-        long maxProd = Integer.MIN_VALUE;
-        for(int i:nums){
-            prod *= i;
-            maxProd = Math.max(maxProd,prod);
-            if(prod <= 0){
-                prod = 1;
-            }
+        int prefixMul = 1;
+        int suffixMul = 1;
+        int maxi = Integer.MIN_VALUE;
+        int n = nums.length;
+        for(int i = 0;i<n;i++){
+            if(prefixMul == 0) prefixMul = 1;
+            if(suffixMul == 0) suffixMul = 1;
+
+            prefixMul *= nums[i];
+            suffixMul *= nums[n - i - 1];
+            maxi = Math.max(maxi, Math.max(prefixMul, suffixMul));
         }
-        return (int)maxProd;
+        return maxi;
     }
 }
